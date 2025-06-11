@@ -32,17 +32,6 @@
 
 ---
 
-### 📁 Repository Structure
-
-.
-├── bunny.obj # Wavefront OBJ mesh (69,451 triangles)
-├── load_mesh.cpp # .obj loader (parses positions, normals, triangles)
-├── frame_timer.cpp # FPS counter using OpenGL timer queries
-├── Q1.cpp # Immediate-Mode renderer (glBegin/glEnd)
-└── Q2.cpp # VAO/VBO renderer with glDrawElements
-
-
----
 
 ### ⚙️ Prerequisites
 

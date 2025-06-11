@@ -1,7 +1,5 @@
 ## OpenGL Bunny Renderer (Assignment 8)
 
-This repository contains an OpenGL-based renderer for a triangle-mesh “bunny” model, implemented as part of the Graduate School “Metaverse Convergence” Computer Graphics course (Assignment 8). It demonstrates two different rendering approaches—Immediate Mode and Vertex Array Objects/VBOs—and measures real-time performance (FPS) using a simple timing utility.
-
 ---
 
 ### 🎯 Features
@@ -58,31 +56,6 @@ This repository contains an OpenGL-based renderer for a triangle-mesh “bunny�
   - MSVC (with `_CRT_SECURE_NO_WARNINGS` defined)
 
 ---
-
-### 🛠️ Build & Run
-
-1. **Install dependencies**  
-   ```bash
-   # Ubuntu/Debian example
-   sudo apt-get update
-   sudo apt-get install build-essential libglew-dev freeglut3-dev libglu1-mesa-dev
-Build Immediate Mode version
-
-g++ Q1.cpp load_mesh.cpp frame_timer.cpp \
-    -std=c++17 -O2 -lGLEW -lglut -lGLU -lGL \
-    -o bunny_immediate
-Build Vertex Array version
-
-g++ Q2.cpp load_mesh.cpp frame_timer.cpp \
-    -std=c++17 -O2 -lGLEW -lglut -lGLU -lGL \
-    -o bunny_vertex_array
-Run
-
-./bunny_immediate
-# or
-./bunny_vertex_array
-Make sure bunny.obj is in the same directory as the executable.
-The window title displays current FPS; press ESC or close the window to exit.
 
 🚀 Expected Performance
 Mode	Typical FPS*

@@ -48,7 +48,9 @@
 
 🚀 Expected Performance
 Mode	Typical FPS*
+![Q1](./Q1_screem.png)
 Immediate Mode (Q1)	~20–60
+![Q2](./images/bunny_screenshot.png)
 Vertex Array (Q2)	~100–300
 
 *FPS varies with hardware and driver configuration.
